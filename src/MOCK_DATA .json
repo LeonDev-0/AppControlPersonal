@@ -1,0 +1,429 @@
+Aquí están 50 productos con sus detalles en formato JSON:
+
+```json
+[
+  {
+    "name": "iPhone 14",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "color": "Midnight",
+    "storage": "128GB",
+    "price": 799
+  },
+  {
+    "name": "Samsung Galaxy S23", 
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "color": "Phantom Black",
+    "storage": "256GB",
+    "price": 899
+  },
+  {
+    "name": "Canon EOS R7",
+    "category": "Cameras", 
+    "brand": "Canon",
+    "type": "Mirrorless",
+    "sensor": "APS-C", 
+    "megapixels": 32.5,
+    "video_resolution": "4K 60fps",
+    "price": 1499
+  },  
+  {
+    "name": "LG 55 inch OLED TV",
+    "category": "TVs",
+    "brand": "LG",
+    "display": "OLED",
+    "size": "55-inch",
+    "resolution": "4K Ultra HD",
+    "refresh_rate": "120Hz",
+    "price": 1299 
+  },
+  {
+    "name": "Beats Studio Buds",
+    "category": "Headphones",
+    "brand": "Beats",
+    "type": "In-ear",
+    "connection": "Bluetooth", 
+    "noise_cancelling": "Yes",
+    "battery_life": "5 hours",
+    "price": 99
+  },
+  {
+    "name": "Microsoft Surface Laptop 5",
+    "category": "Laptops",
+    "brand": "Microsoft",
+    "cpu": "Intel Core i5",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display": "14 inch",  
+    "price": 999
+  },
+  {
+    "name": "Dell XPS 13", 
+    "category": "Laptops",
+    "brand": "Dell",
+    "cpu": "Intel Core i7",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "display": "13.3 inch 4K",
+    "price": 1599
+  },
+  {
+    "name": "Lenovo Chromebook Duet",
+    "category": "Laptops",
+    "brand": "Lenovo", 
+    "cpu": "MediaTek Helio P60T",
+    "ram": "4GB",
+    "storage": "64GB eMMC",
+    "display": "10.1 inch", 
+    "price": 279
+  },
+  {
+    "name": "Apple Watch Ultra",
+    "category": "Smartwatches",
+    "brand": "Apple",
+    "compatibility": "iPhone",
+    "display": "1.92 inch",
+    "battery_life": "36 hours",
+    "waterproof": "100m",
+    "price": 799
+  },
+  {
+    "name": "Garmin fenix 7S",
+    "category": "Smartwatches",
+    "brand": "Garmin", 
+    "compatibility": "Android/iOS",
+    "display": "1.2 inch",
+    "battery_life": "11 days", 
+    "waterproof": "100m",
+    "price": 699
+  },
+  {
+    "name": "ASUS ROG Strix G15", 
+    "category": "Laptops",
+    "brand": "ASUS",
+    "cpu": "AMD Ryzen 7",
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "ram": "16GB",
+    "storage": "1TB SSD", 
+    "display": "15.6 inch QHD",
+    "price": 1649
+  },
+  {
+    "name": "Acer Nitro 5",
+    "category": "Laptops",
+    "brand": "Acer",
+    "cpu": "Intel Core i5",
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "display": "15.6 inch FHD",
+    "price": 849
+  },
+  {
+    "name": "Nikon Z9",
+    "category": "Cameras",
+    "brand": "Nikon",
+    "type": "Mirrorless",
+    "sensor": "Full Frame",
+    "megapixels": 45.7,
+    "video_resolution": "8K 30fps", 
+    "price": 5499
+  },
+  {
+    "name": "Sony Alpha a7 IV",
+    "category": "Cameras",
+    "brand": "Sony",
+    "type": "Mirrorless", 
+    "sensor": "Full Frame",
+    "megapixels": 33,
+    "video_resolution": "4K 60fps",
+    "price": 2499
+  },
+  {
+    "name": "GoPro HERO11 Black",
+    "category": "Cameras", 
+    "brand": "GoPro",
+    "type": "Action",
+    "sensor": "1/1.9-inch",
+    "megapixels": 27,
+    "video_resolution": "5.3K 60fps",
+    "price": 399
+  },
+  {
+    "name": "Amazon Kindle",
+    "category": "eReaders",
+    "brand": "Amazon",
+    "display": "6 inch e-ink", 
+    "storage": "8GB",
+    "battery_life": "Weeks",
+    "connectivity": "Wi-Fi/4G",
+    "price": 94
+  },
+  {
+    "name": "Apple AirPods Pro 2",
+    "category": "Headphones",
+    "brand": "Apple",
+    "type": "In-ear",
+    "connection": "Bluetooth",
+    "noise_cancelling": "Adaptive ANC",
+    "battery_life": "6 hours", 
+    "price": 249
+  },
+  {
+    "name": "Bose QuietComfort Earbuds II",
+    "category": "Headphones",
+    "brand": "Bose",
+    "type": "In-ear", 
+    "connection": "Bluetooth",
+    "noise_cancelling": "Adjustable ANC",
+    "battery_life": "6 hours",
+    "price": 299 
+  },
+  {
+    "name": "JBL Flip 6",
+    "category": "Speakers",
+    "brand": "JBL",
+    "type": "Portable",
+    "connectivity": "Bluetooth",
+    "battery_life": "12 hours",
+    "waterproof": "IP67", 
+    "price": 129
+  },
+  {
+    "name": "Sony WF-1000XM4",
+    "category": "Headphones",
+    "brand": "Sony",
+    "type": "In-ear",
+    "connection": "Bluetooth",
+    "noise_cancelling": "ANC",
+    "battery_life": "8 hours",
+    "price": 279
+  },
+  {
+    "name": "Amazon Echo Dot",
+    "category": "Smart Speakers",
+    "brand": "Amazon", 
+    "connectivity": "Wi-Fi",
+    "assistant": "Alexa built-in",
+    "controls": "Voice controls",
+    "price": 49.99
+  },
+  {
+    "name": "Apple iMac 27 inch",
+    "category": "All-in-one PCs",
+    "brand": "Apple",
+    "cpu": "Intel Core i5",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display": "27 inch 5K Retina",
+    "price": 1699
+  },
+  {
+    "name": "Canon PIXMA G7020",
+    "category": "Printers",
+    "brand": "Canon",
+    "type": "Inkjet",
+    "print_speed": "15ppm black/10ppm color",
+    "max_resolution": "4800x1200 dpi",
+    "connectivity": "Wi-Fi/USB",
+    "price": 349
+  },
+  {
+    "name": "Ring Video Doorbell 4",
+    "category": "Home Security",
+    "brand": "Ring",
+    "camera_resolution": "1080p HD", 
+    "power_source": "Rechargeable battery",
+    "night_vision": "Black and white IR",
+    "connectivity": "Wi-Fi", 
+    "price": 199
+  },
+  {
+    "name": "Nintendo Switch", 
+    "category": "Gaming Consoles",
+    "brand": "Nintendo",
+    "model": "OLED Model",
+    "storage": "64GB",
+    "display": "7-inch OLED",
+    "battery_life": "9 hours",
+    "price": 349
+  },
+  {
+    "name": "PlayStation 5",
+    "category": "Gaming Consoles",
+    "brand": "Sony", 
+    "model": "Disc Edition", 
+    "storage": "825GB SSD",
+    "gpu": "AMD Radeon RDNA 2",
+    "resolution": "Up to 4K",
+    "price": 499
+  },
+  {
+    "name": "Xbox Series X",
+    "category": "Gaming Consoles",
+    "brand": "Microsoft",
+    "storage": "1TB SSD",
+    "gpu": "12 TFLOPS AMD RDNA 2", 
+    "resolution": "Up to 8K", 
+    "max_frame_rate": "120 fps",
+    "price": 499
+  },
+  {
+    "name": "Puma Future Rider",
+    "category": "Sneakers",
+    "brand": "Puma",
+    "gender": "Unisex", 
+    "size": "6 - 13",
+    "material": "Mesh/Leather",
+    "color": "Gray",
+    "price": 129
+  },
+  {
+    "name": "adidas Ultra Boost",
+    "category": "Sneakers",
+    "brand": "Adidas", 
+    "gender": "Men",
+    "size": "7 - 13",
+    "material": "Textile/Synthetic",
+    "color": "White",
+    "price": 179
+  },
+  {
+    "name": "Hydro Flask 32oz",
+    "category": "Water Bottles",
+    "brand": "Hydro Flask",
+    "volume": "32oz (946ml)",
+    "material": "Stainless Steel", 
+    "insulation": "TempShield",
+    "colors": "Graphite, Blue, and more", 
+    "price": 44.95
+  },
+  {
+    "name": "Keurig K-Mini Coffee Maker", 
+    "category": "Coffee Machines",
+    "brand": "Keurig",
+    "type": "Single Serve", 
+    "compatibility": "K-Cup Pods",
+    "cup_sizes": "6-12oz",
+    "reservoir": "1 cup water capacity",
+    "price": 79.99
+  },
+  {  
+    "name": "Chemex Pour-Over Glass Coffeemaker",
+    "category": "Coffee Makers",
+    "brand": "Chemex",  
+    "type": "Manual Pour Over",
+    "cup_capacity": "8 cups", 
+    "material": "Glass", 
+    "dimensions": "9x5x10 inches",
+    "price": 44.99
+  },
+  {
+    "name": "Fitbit Versa 4",
+    "category": "Fitness Trackers",
+    "brand": "Fitbit",  
+    "compatibility": "Android/iOS",
+    "display": "AMOLED color touchscreen",
+    "battery_life": "6+ days",
+    "waterproof": "50m", 
+    "price": 229   
+  },
+  {
+    "name": "Garmin vívomove Sport",
+    "category": "Fitness Trackers",
+    "brand": "Garmin",
+    "compatibility": "Android/iOS", 
+    "display": "Memory-in-pixel", 
+    "battery_life": "5 days",
+    "waterproof": "50m",
+    "price": 179
+  },
+  {
+    "name": "Oculus Quest 2",  
+    "category": "Virtual Reality",
+    "brand": "Meta",    
+    "display": "1832x1920px per eye",
+    "refresh_rate": "90Hz",
+    "storage": "128GB/256GB",
+    "controllers": "Oculus Touch",
+    "price": 399    
+  },
+  {
+    "name": "Valve Index VR Kit",
+    "category": "Virtual Reality",
+    "brand": "Valve",
+    "display": "1440x1600px per eye", 
+    "refresh_rate": "120Hz/144Hz",
+    "controllers": "Valve Index Controllers", 
+    "base_stations": "Valve Index Base Stations",
+    "price": 999
+  },
+  {
+    "name": "GoPro HERO8 Black",
+    "category": "Cameras",
+    "brand": "GoPro",
+    "type": "Action",   
+    "sensor": "12MP 1/2.3\" CMOS",
+    "video_resolution": "4K60", 
+    "image_stabilization": "HyperSmooth 2.0",
+    "waterproof": "10m", 
+    "price": 299
+  },
+  {
+    "name": "Weber Smokey Joe",
+    "category": "Grills",  
+    "brand": "Weber",
+    "type": "Charcoal",
+    "size": "14 inches",
+    "material": "Porcelain-enameled steel",
+    "price": 109 
+  },
+  {
+    "name": "Anova Precision Cooker Nano",
+    "category": "Sous Vide",   
+    "brand": "Anova",    
+    "connectivity": "Bluetooth + WiFi ",
+    "temperature_range": "77°F - 197°F",
+    "max_capacity": "5.8 gallons",
+    "price": 129  
+  },
+  {  
+    "name": "Ninja CT682SP Multi-Cooker",
+    "category": "Slow Cookers", 
+    "brand": "Ninja",   
+    "capacity": "6.5 quarts", 
+    "functions": "Pressure Cook, Air Fry, Slow Cook",
+    "material": "Ceramic Pot, Plastic Housing", 
+    "price": 199
+  },
+  {
+    "name": "Instant Pot Duo Plus",
+    "category": "Multi-Cookers",
+    "brand": "Instant",  
+    "capacity": "6 quarts",
+    "functions": "Pressure Cooker, Rice Cooker, Slow Cooker", 
+    "display": "LED Display",  
+    "price": 119.99
+  },
+  {
+    "name": "NutriBullet Pro", 
+    "category": "Blenders",
+    "brand": "NutriBullet",  
+    "power": "900W motor",
+    "blade_material": "Stainless Steel",
+    "capacity": "32oz (3 cup)",
+    "functions": "Blend, Mix, Puree",
+    "price": 64.88    
+  },
+  {
+    "name": "Vitamix 5200 Blender", 
+    "category": "Blenders",
+    "brand": "Vitamix",    
+    "power": "2 peak horsepower motor",
+    "blade_material": "Aircraft-grade stainless steel", 
+    "capacity": "64oz (8 cup)",
+    "price": 449.95
+  }  
+]
+```
