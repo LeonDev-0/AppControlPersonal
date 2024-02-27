@@ -1,10 +1,13 @@
-import React from 'react'
-import SimpleTable from './SimpleTable'
+import React from "react";
+import SimpleTable from "./SimpleTable";
 
 const Productos = () => {
   return (
-    <SimpleTable/>
-  )
-}
+    <div className="flex-1">
+      <SimpleTable />
+    </div>
+  );
+};
 
-export default Productos
+export default Productos;
+
