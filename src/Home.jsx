@@ -1,8 +1,9 @@
 import React from 'react'
+import { Button } from 'antd'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Button className='hover:bg-blue-500 hover:text-white !inportant'>guardar</Button>
   )
 }
 

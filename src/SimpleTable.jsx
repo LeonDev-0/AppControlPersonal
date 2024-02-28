@@ -1,3 +1,7 @@
+import { FaRegTrashCan } from "react-icons/fa6";
+import { CiEdit } from "react-icons/ci";
+import FormularioModal from "./FormularioModal";
+import { Button } from "antd";
 import {
   useReactTable,
   getCoreRowModel,
@@ -9,6 +13,26 @@ import data from "./MOCK_DATA .json";
 import { useState } from "react";
 
 const SimpleTable = () => {
+  const [isOpen, setIsOpen]= useState(false)
+
+ 
+  const openModal = ()=>setIsOpen(true)
+  const closeModal = ()=>setIsOpen(false)
+
+  const handleSubmit = (item)=>{
+    alert('guardado exitosamente')
+    setIsOpen(false)
+  }
+  
+
+  const handleEdit=row=>{
+    alert('editando...')
+    const confirmDelete = confirm("")
+  }
+  const handleDelete=row=>{
+    alert('Eliminando...')
+  }
+
   const columns = [
     {
       header: "Name",
@@ -31,13 +55,14 @@ const SimpleTable = () => {
       accessorKey: "display",
     },
     {
-      header: "Capacity",
-      accessorKey: "capacity",
-    },
-    {
-      header: "Price",
-      accessorKey: "price",
-    },
+      header:"Actions",
+      cell:({row})=>(
+        <div className=" flex gap-4 text-xl">
+          <button className="text-green-500" onClick={handleEdit}><CiEdit/></button>
+          <button className = "text-red-500" onClick={handleDelete}><FaRegTrashCan/></button>
+        </div>
+      )
+    }
   ];
 
   const [filtering, setFiltering] = useState("");
@@ -53,8 +78,14 @@ const SimpleTable = () => {
     onGlobalFilterChange: setFiltering,
   });
   return (
+
     <>
-      <div>
+    <FormularioModal
+    open={isOpen} 
+    onOk={handleSubmit}
+    onCancel={closeModal}
+    />
+      <div className=" flex justify-between">
         <input
           type="text"
           value={filtering}
@@ -62,6 +93,7 @@ const SimpleTable = () => {
           placeholder="Buscar..."
           className="p-3 w-1/2 border border-violet-500 rounded-xl my-3 ml-3"
         />
+        <Button type="default" onClick={openModal}>Nuevo Producto</Button>
       </div>
       <table className="border-collapse w-full text-sm">
         <thead>

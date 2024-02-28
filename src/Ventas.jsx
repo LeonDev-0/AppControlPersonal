@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Ventas = () => {
+
   return (
-    <div>Ventas</div>
+    <div>
+      ventas
+    </div>
   )
 }
 
