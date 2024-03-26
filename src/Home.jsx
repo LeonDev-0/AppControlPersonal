@@ -1,7 +1,9 @@
 import ModalPrueba from "./ModalPrueba";
 
 const Home = () => {
-  return <ModalPrueba />;
+  <>
+  home
+  </>
 };
 
 export default Home;
